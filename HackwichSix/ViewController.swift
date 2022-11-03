@@ -10,9 +10,31 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
-    var myfriends = ["Clare", "Vanessa", "Paige"]
+    var myfriends = ["Kapolei Kalapawai"]
+    
+    
+    @IBOutlet var tableView: UITableView!
     
     var myfriendsHomeArray = ["Los Angeles", "Honolulu", "Portland"]
+    
+    var restaurantImageData = [String] ()
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+        
+        let path = Bundle.main.path(forResource: "Property List", ofType: "plist")
+        let dict = NSDictionary(contentsOfFile: path!)
+    
+        restaurantImageData = dict!.object(forKey: "restaurantImages") as! [String]
+        
+        
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath as IndexPath, animated: true)
+    }
+    
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection
         section: Int) -> Int
@@ -36,10 +58,13 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
     }
     
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        let s1 = segue.destination as! detailViewController
+        let imageIndex = tableView.indexPathForSelectedRow?.row
+        s1.imagePass = restaurantImageData[imageIndex!]
+    
+    
     }
 
 

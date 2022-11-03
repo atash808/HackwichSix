@@ -13,6 +13,8 @@
 		90B154DC28FE884000BB8338 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90B154DA28FE884000BB8338 /* Main.storyboard */; };
 		90B154DE28FE884900BB8338 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90B154DD28FE884900BB8338 /* Assets.xcassets */; };
 		90B154E128FE884900BB8338 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90B154DF28FE884900BB8338 /* LaunchScreen.storyboard */; };
+		90B78A9129138E60004DAACE /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 90B78A9029138E60004DAACE /* Property List.plist */; };
+		90B78A9529139309004DAACE /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B78A9429139309004DAACE /* detailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		90B154DD28FE884900BB8338 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90B154E028FE884900BB8338 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90B154E228FE884900BB8338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90B78A9029138E60004DAACE /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
+		90B78A9429139309004DAACE /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 		90B154C828FE883F00BB8338 = {
 			isa = PBXGroup;
 			children = (
+				90B78A9429139309004DAACE /* detailViewController.swift */,
 				90B154D328FE884000BB8338 /* HackwichSix */,
 				90B154D228FE884000BB8338 /* Products */,
 			);
@@ -61,6 +66,7 @@
 				90B154D828FE884000BB8338 /* ViewController.swift */,
 				90B154DA28FE884000BB8338 /* Main.storyboard */,
 				90B154DD28FE884900BB8338 /* Assets.xcassets */,
+				90B78A9029138E60004DAACE /* Property List.plist */,
 				90B154DF28FE884900BB8338 /* LaunchScreen.storyboard */,
 				90B154E228FE884900BB8338 /* Info.plist */,
 			);
@@ -127,6 +133,7 @@
 			files = (
 				90B154E128FE884900BB8338 /* LaunchScreen.storyboard in Resources */,
 				90B154DE28FE884900BB8338 /* Assets.xcassets in Resources */,
+				90B78A9129138E60004DAACE /* Property List.plist in Resources */,
 				90B154DC28FE884000BB8338 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +148,7 @@
 				90B154D928FE884000BB8338 /* ViewController.swift in Sources */,
 				90B154D528FE884000BB8338 /* AppDelegate.swift in Sources */,
 				90B154D728FE884000BB8338 /* SceneDelegate.swift in Sources */,
+				90B78A9529139309004DAACE /* detailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
