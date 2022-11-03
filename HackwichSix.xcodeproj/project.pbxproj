@@ -15,6 +15,7 @@
 		90B154E128FE884900BB8338 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90B154DF28FE884900BB8338 /* LaunchScreen.storyboard */; };
 		90B78A9129138E60004DAACE /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 90B78A9029138E60004DAACE /* Property List.plist */; };
 		90B78A9529139309004DAACE /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B78A9429139309004DAACE /* detailViewController.swift */; };
+		90B78A972913A187004DAACE /* HackwichSix in Resources */ = {isa = PBXBuildFile; fileRef = 90B78A962913A187004DAACE /* HackwichSix */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		90B154E228FE884900BB8338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90B78A9029138E60004DAACE /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 		90B78A9429139309004DAACE /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
+		90B78A962913A187004DAACE /* HackwichSix */ = {isa = PBXFileReference; lastKnownFileType = folder; name = HackwichSix; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				90B154D628FE884000BB8338 /* SceneDelegate.swift */,
 				90B154D828FE884000BB8338 /* ViewController.swift */,
 				90B154DA28FE884000BB8338 /* Main.storyboard */,
+				90B78A962913A187004DAACE /* HackwichSix */,
 				90B154DD28FE884900BB8338 /* Assets.xcassets */,
 				90B78A9029138E60004DAACE /* Property List.plist */,
 				90B154DF28FE884900BB8338 /* LaunchScreen.storyboard */,
@@ -133,6 +136,7 @@
 			files = (
 				90B154E128FE884900BB8338 /* LaunchScreen.storyboard in Resources */,
 				90B154DE28FE884900BB8338 /* Assets.xcassets in Resources */,
+				90B78A972913A187004DAACE /* HackwichSix in Resources */,
 				90B78A9129138E60004DAACE /* Property List.plist in Resources */,
 				90B154DC28FE884000BB8338 /* Main.storyboard in Resources */,
 			);
